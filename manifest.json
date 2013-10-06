@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2
+  , "name": "dq10-store-memories"
+  , "version": "1.0"
+  , "description": "dq10の思い出アルバムを一括保存するextensionです！！"
+  , "content_scripts": [{
+      "matches": ["http://hiroba.dqx.jp/sc/character/*/picture/"]
+    , "js": ["jquery-2.0.3.min.js", "script.js"]
+  }]
+}
